@@ -51,5 +51,6 @@ forecast = [
 ]
 
 forecast.each do |day|
-  puts "#{day["day"].capitalize} High: #{day["temperatures"]["high"]}, Low: #{day["temperatures"]["low"]}"
+  puts "#{day["day"].capitalize}
+  High: #{day["temperatures"]["high"]}, Low: #{day["temperatures"]["low"]}"
 end
